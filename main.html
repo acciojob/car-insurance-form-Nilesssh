@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form action="#" method="get">
+	<form action="#" method="post">
         <label for="name" >Name*</label>
         <input type="text" id="name" required>
         <br>
@@ -19,8 +19,8 @@
         Male<input type="radio" name="gender" id="male" required>
         Female<input type="radio" name="gender" id="female" required>
         <br>
-        <label for="car-brands">Car Brands</label>
-        <select name="car-brands" id="car-brands">
+        <label for="cars">Car Brands</label>
+        <select name="car-brands" id="cars">
             <option value="" selected>select option</option>
             <option value="carbrand-audi">Audi</option>
             <option value="carbrand-bmw">BMW</option>
@@ -28,7 +28,7 @@
         </select>
         <br>
         <label for="carage" >Car Age*</label>
-        <input type="number" required>
+        <input type="number" id="carage" required>
         <br>
         <label for="dop" >Date of Purchase(dop)*</label>
         <input type="date" id="dop" required>
